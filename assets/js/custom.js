@@ -35,6 +35,59 @@ slider1.owlCarousel({
 
 
 
+//========about us page=========
+
+Fancybox.bind("[data-fancybox]", {
+  Toolbar: false,
+  dragToClose: false,
+  fullScreen: {
+    autoStart: true,
+  },
+  Video: {
+    autoplay: true,
+    ratio: 100 / 200,
+    fullScreen: true,
+  },
+});
+
+var slider2 = $('.slider2');
+slider2.owlCarousel({
+  loop: true,
+  nav: false,
+  dots: true,
+  smartSpeed: 450,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  margin: 20,
+  responsive: {
+    320: { items: 1 },
+    480: { items: 1 },
+    600: { items: 1 },
+    960: { items: 1 },
+    1200: { items: 1 }
+
+  }
+});
+
+
+var brandlogo = $('.brandlogo');
+brandlogo.owlCarousel({
+  loop: true,
+  nav: false,
+  dots: false,
+  smartSpeed: 450,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  margin: 20,
+  responsive: {
+    320: { items: 1 },
+    480: { items: 2 },
+    600: { items: 3 },
+    960: { items: 4 },
+    1200: { items: 5 }
+
+  }
+});
 
 
 
