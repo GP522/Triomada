@@ -1,0 +1,174 @@
+
+
+
+@media (max-width:1390.8px) {
+    .banner-werrp{padding: 46% 0px 0px 0px;}
+    .bottom-cnt {padding-top: 50px;}
+    .proudly-card h4{margin-bottom: 74px;}
+    
+
+
+
+}
+
+
+@media (max-width:1200.8px) {
+    .pallet-sec{height: 438px;}
+    .tittle-hd h2{font-size: 60px;}
+    #header{padding: 0px 10px;}
+    .card-box{padding: 60px 20px;}
+
+}
+
+
+@media (max-width:1024.8px) {
+   
+
+
+
+
+}
+
+
+@media (max-width:991.8px) {
+    #header{z-index:999;}
+    .navbar-toggler{top: 10px;}
+    .navbar-collapse {position: absolute;top: 100%;width: 100%;background: #002A3A;left: 0px; z-index: 9999; transition: .5s; padding: 20px 30px;}
+    .header-menu .navbar-nav li a {color: #fff;font-size: 28px; margin: 0px 0px 30px 0px; line-height: normal; display: inline-block;}
+    .header-menu .navbar-nav li a:hover{color:#fff;}
+    .language-werrp ul{margin-right: auto;  margin-bottom: 20px;}
+
+
+    .banner-section{padding: 20px 20px 0px 20px;}
+    .banner-werrp{padding: 56% 0px 0px 0px;}
+    .tittle-hd h2{font-size: 55px; height: auto; line-height: normal;}
+
+    .partner-section{padding: 60px 0px;}
+    .layer-grid{grid-template-columns: repeat(2, 1fr);padding: 60px 0px 40px 0px;}
+    .card-box{margin-bottom: 20px;}
+
+    .product-section{padding: 0px 0px 60px;}
+    .pallet-sec{height: auto;}
+    .rightsec li {margin-bottom: 20px;}
+    .rightsec li a{font-size: 15px;}
+    .rightsec h4{font-size: 40px; margin-bottom: 10px;}
+    .rightsec .arrow{margin-top: 0px;}
+    .rightsec{padding:20px;}
+    .rightsec p{margin-bottom: 20px;}
+    .lefsec img{width: 100%; height: 100%;}
+
+    .steps-section{padding: 0px 0px 60px;}
+    .effort-cnt{left: 0px; padding: 0px 40px;}
+    .sustain-img .round-img img{width: 100%; margin-bottom: 20px;}
+
+    .resources{padding: 5px 0px 60px;}
+    .grid-layer3{grid-template-columns: repeat(2, 1fr); padding-bottom: 40px;}
+    .blog-box{margin-bottom: 20px;}
+
+    .footer{padding: 0px 20px 20px 20px;}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width:767.8px) {
+    .proudly-card h4{font-size: 38px;}
+    .grid-layer3 {
+        grid-template-columns: repeat(1, 1fr);}
+        .evangeline{bottom: 28px;}
+        .social-icon{margin-bottom: 25px;}
+
+
+
+
+}
+
+@media (max-width:576.8px) {
+    .tittle-hd{padding: 0px 20px; bottom: 5px;}
+    .banner-werrp{height: 450px; border-radius: 0px;}
+     #header{top: 50px; padding:0px 20px;}
+     .tittle-hd h2 {font-size: 48px;}
+     .rightsec{padding: 30px 30px;}
+     .effort-cnt{padding: 0px 30px;}
+     .manufacturer{padding: 52px 30px;}
+     .proudly-card{padding: 40px 30px;}
+     .copyright p{font-size: 14px;}
+     .footer-bg{padding: 50px 20px 20px 20px; border-radius: 0px;}
+     .footer {padding: 0px;}
+     .ftr-menu {
+        margin-bottom: 12px;
+    }
+     .copyright{padding-top: 50px;}
+     .copyright p{margin-bottom: 5px;}
+
+     .card-box{padding: 50px 20px;}
+     .card-box h4{line-height: 28px;}
+     .facility {margin-top: 30px;}
+     
+
+
+}
+
+
+
+@media (max-width:480.8px) {
+    .footer-bg::after{width: 340px; height: 210px;}
+    .effort-cnt h4{font-size: 40px;}
+    .layer-grid {grid-template-columns: repeat(1, 1fr);}
+    .intrusion-card{grid-template-columns: repeat(1, 1fr); margin: 30px auto 0px;}
+    .card-werrp{margin-top: 20px;}
+    .tittle-hd h2 {font-size: 42px;}
+    .section-title h2{font-size: 42px; line-height: 40px;}
+    .product-section h2{font-size: 40px; margin-bottom: 30px;}
+    .rightsec li a {font-size: 14px;}
+    .proudly-card h4 {font-size: 30px; line-height: 30px;}
+    .resources h4{font-size: 40px; margin-bottom: 30px;}
+    .evangeline{padding: 20px;}
+
+}
+
+@media (max-width:425.8px) {
+
+
+
+
+}
+
+@media (max-width:376.8px) {
+  
+    .tittle-hd h2 {font-size: 38px;}
+    .tittle-hd p{font-size: 16px; line-height:22px;}
+    .section-title h2 {font-size: 38px;}
+    .card-box h4 {font-size: 28px;line-height: 32px;}
+    .rightsec ul {grid-template-columns: repeat(1, 1fr);}
+    .rightsec li {margin-bottom: 30px;}
+    .rightsec li a{font-size: 16px;}
+    .rightsec p {margin-bottom: 30px;}
+    .rightsec .arrow {margin-top: 10px;}
+    .effort-cnt h4 { line-height: 32px;font-size: 30px;}
+    .effort-cnt a.btn{padding: 20px 30px;}
+    .effort-cnt p{margin-bottom: 20px;}
+    .effort-cnt{top: 35px;}
+    .proudly-card h4 {font-size: 26px;line-height: 33px;}
+    .resources h4 {font-size: 35px; line-height: 35px;}
+    .footer-bg::after { width: 300px;height: 170px;}
+
+
+
+}
+
+
+@media (max-width:340.8px) {
+    .effort-cnt a.btn{font-size: 14px;}
+    .tittle-hd h2 {font-size: 30px;}
+    .proudly-card h4{font-size: 26px; letter-spacing: -0.5px;}
+    .evangeline h5{font-size: 22px;}
+}
