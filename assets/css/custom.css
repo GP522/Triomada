@@ -685,3 +685,16 @@ a{text-decoration: none;}
 
 .intrusion-card .card-werrp h2 {font-size: 35px;font-weight: 700;line-height: 48.8px;letter-spacing: -1.4px;}
 .intrusion-card .card-werrp{padding: 60px 30px;}
+
+
+
+
+/*---Product machina page----*/
+.product-tabs{position: relative; padding: 100px 0px 40px 0px;}
+.scroll-werrp{border-radius: 12px;max-width: 907px; margin: 0 auto;background: #002A39;box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); padding: 15px 0px; margin-bottom: 30px;}
+.scroll-werrp .nav-link{white-space: pre-line;color: #FFF;text-align: center;font-size: 16px;font-family:'Roobert-SemiBold';font-weight: 600;line-height: 20.8px;letter-spacing: -0.32px;
+  padding: 11px 18px;border-radius: 60px;}
+.scroll-werrp .nav-pills .nav-link.active, .nav-pills .show>.nav-link{color: #000; background: #fff;}
+.machine-cnt {max-width: 1030px; margin: 0 auto;}
+.machine-cnt h2{color: #002A39;font-size: 45px;font-weight: 700;line-height: 48.8px;letter-spacing: -1.8px;}
+.machine-cnt p{color: #0B0C0C;text-align: center;font-size: 16px;font-weight: 300;line-height: 24px;letter-spacing: -0.32px;}
