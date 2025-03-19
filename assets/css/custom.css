@@ -669,7 +669,7 @@ a{text-decoration: none;}
 .variants-bg .percentage{height: 428px;}
 .percentage li{color: #000;font-size: 24px;font-weight: 300;line-height: 30px;letter-spacing: -0.48px; margin-bottom: 30px;}
 
-.paragraph{position: relative;width: 1030px; margin: 0 auto;}
+.paragraph{position: relative;max-width: 1030px; margin: 0 auto;}
 .paragraph p{color: #0B0C0C;text-align: center;font-size: 16px;font-weight: 300;line-height: 24px;letter-spacing: -0.32px;}
 
 .download-section {border-radius: 50px;background:#0B0B0B;text-align: center;padding: 100px 0px;position: relative; margin-top: 80px;}
