@@ -197,7 +197,11 @@
      .career-hd h2{line-height: 32px;}
 
      .media-hd {padding: 10px 0px 20px 0px;}
-     .media-hd h2{font-size: 32px; line-height: 44px;}
+     .media-hd h2{font-size: 32px; line-height: 36px;}
+
+     .detail-img img{padding-bottom: 80px;}
+     .media-hd h2 br{display: none;}
+     .privacy-hd{padding: 10px 0px 80px;}
 
 }
 
