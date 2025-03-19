@@ -22,8 +22,8 @@ slider1.owlCarousel({
   autoplayTimeout: 5000,
   margin: 20,
   responsive: {
-    320: { items: 1 },
-    480: { items: 1 },
+    320: { items: 2 },
+    480: { items: 2.2 },
     600: { items: 2 },
     960: { items: 3 },
     1200: { items: 4 }
@@ -80,8 +80,8 @@ brandlogo.owlCarousel({
   autoplayTimeout: 5000,
   margin: 20,
   responsive: {
-    320: { items: 1 },
-    480: { items: 2 },
+    320: { items: 3 },
+    480: { items: 3 },
     600: { items: 3 },
     960: { items: 4 },
     1200: { items: 5 }

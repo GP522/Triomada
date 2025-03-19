@@ -48,12 +48,12 @@ a{text-decoration: none;}
 
 
 
-.navbar-toggler {position: relative;padding: 5px;border: none;background: transparent;}
+.navbar-toggler {position: relative;padding: 0px;border: none;background: #EAD9BE; border-radius: 30px; width: 36px; height: 36px; line-height: 36px;}
 
-.menu-icon {width: 25px;height: 20px;display: flex;flex-direction: column;justify-content: space-between;cursor: pointer;}
-.navicon {background: #fff;display: block;height: 3px;width: 25px;position: relative;transition: all 0.3s ease-in-out;}
+.menu-icon {display: flex;flex-direction: column;justify-content: space-between;cursor: pointer;transition: all 0.3s ease-in-out;}
+.navicon {background: #0c0b0b;display: block;height: 3px;width: 25px;position: relative;transition: all 0.3s ease-in-out; margin: 0 auto;}
 .navicon:before,
-.navicon:after {content: '';background: #fff;width: 100%;height: 3px;position: absolute;left: 0;transition: all 0.3s ease-in-out;}
+.navicon:after {content: '';background: #0c0b0b;width: 80%;height: 3px;position: absolute;left: 0;transition: all 0.3s ease-in-out; margin: 0 auto; text-align: center; right: 0px;}
 .navicon:before {top: -8px;}
 .navicon:after {top: 8px;}
 /* Toggle Animation */
@@ -63,7 +63,7 @@ a{text-decoration: none;}
 
 .navbar-toggler:focus{box-shadow: none;}
 
-
+.moblie{display: none;}
 
 .inner-header .header-menu .navbar-nav li a {color: #0B0B0B;}
 .inner-header .contact-btn a.btn{background: #002A39; color: #fff;}
@@ -512,11 +512,6 @@ a{text-decoration: none;}
   line-height: 24px;
   letter-spacing: -0.32px;}
 
-
-
-
-
-
 .date-year:after {
   content: "";
   position: absolute;
@@ -580,6 +575,11 @@ a{text-decoration: none;}
 .presence-bg{border-radius: 50px;border: 1px solid #EAD9BE;background: #FCF8F1; padding: 90px 0px;}
 .global-hd {text-align: center;}
 .global-hd h2{color: #0B0C0C;font-size: 45px;font-weight: 700;line-height: 48.8px;letter-spacing: -1.8px; margin-bottom: 30px;}
+
+.Sales-werrp{padding: 0px 40px; position: relative;}
+.Countries{margin-bottom: 30px;}
+.Sales-werrp p{color: #0B0B0B;font-size: 14px;font-weight: 300;line-height: normal;letter-spacing: -0.28px; margin: 0px;}
+.Sales-werrp p span{font-family:'Roobert-SemiBold';}
 
 .Lab-section{position: relative; overflow: hidden; margin: 20px 0px;}
 .labslider2{position: relative;}

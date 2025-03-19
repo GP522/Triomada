@@ -5,49 +5,53 @@
     .banner-werrp{padding: 46% 0px 0px 0px;}
     .bottom-cnt {padding-top: 50px;}
     .proudly-card h4{margin-bottom: 74px;}
-    
+ 
 
 
 
 }
 
 
-@media (max-width:1200.8px) {
+@media (max-width:1260.8px) {
     .pallet-sec{height: 438px;}
     .tittle-hd h2{font-size: 60px;}
     #header{padding: 0px 10px;}
     .card-box{padding: 60px 20px;}
+    .get-werrp h2{font-size: 32px; line-height: 36px;}
 
 }
 
 
 @media (max-width:1024.8px) {
    
-
-
-
+    .address-info::after{width: 390px; height: 310px;}
+    .contact-section .Production{padding: 80px 25px;}
+    .infom-form{padding: 80px 25px;}
 
 }
 
 
 @media (max-width:991.8px) {
-    #header{z-index:999;}
+    #header {background: #fcf8f1;z-index: 999;position: relative;top: 0px; padding: 33px 20px;}
     .navbar-toggler{top: 10px;}
     .navbar-collapse {position: absolute;top: 100%;width: 100%;background: #002A3A;left: 0px; z-index: 9999; transition: .5s; padding: 20px 30px;}
-    .header-menu .navbar-nav li a {color: #fff;font-size: 28px; margin: 0px 0px 30px 0px; line-height: normal; display: inline-block;}
+    .header-menu .navbar-nav li a {color: #fff !important;font-size: 28px; margin: 0px 0px 30px 0px; line-height: normal; display: inline-block;}
     .header-menu .navbar-nav li a:hover{color:#fff;}
+    .language-werrp li a{color: #fff !important;}
     .language-werrp ul{margin-right: auto;  margin-bottom: 20px;}
+    .inner-header .contact-btn a.btn {background: #fff;color: #002A39;}
 
 
-    .banner-section{padding: 20px 20px 0px 20px;}
+
+    .moblie{display: block;}
+    .desktop{display: none;}
+    .banner-section{padding: 10px 15px 0px 15px;}
     .banner-werrp{padding: 56% 0px 0px 0px;}
     .tittle-hd h2{font-size: 55px; height: auto; line-height: normal;}
-
-    .partner-section{padding: 60px 0px;}
-    .layer-grid{grid-template-columns: repeat(2, 1fr);padding: 60px 0px 40px 0px;}
+    .partner-section{padding: 80px 0px;}
+    .layer-grid{grid-template-columns: repeat(2, 1fr);padding: 80px 0px 40px 0px;}
     .card-box{margin-bottom: 20px;}
-
-    .product-section{padding: 0px 0px 60px;}
+    .product-section{padding: 0px 0px 80px;}
     .pallet-sec{height: auto;}
     .rightsec li {margin-bottom: 20px;}
     .rightsec li a{font-size: 15px;}
@@ -56,23 +60,81 @@
     .rightsec{padding:20px;}
     .rightsec p{margin-bottom: 20px;}
     .lefsec img{width: 100%; height: 100%;}
-
-    .steps-section{padding: 0px 0px 60px;}
+    .steps-section{padding: 0px 0px 80px;}
     .effort-cnt{left: 0px; padding: 0px 40px;}
     .sustain-img .round-img img{width: 100%; margin-bottom: 20px;}
-
-    .resources{padding: 5px 0px 60px;}
+    .resources{padding: 5px 0px 80px;}
     .grid-layer3{grid-template-columns: repeat(2, 1fr); padding-bottom: 40px;}
     .blog-box{margin-bottom: 20px;}
-
     .footer{padding: 0px 20px 20px 20px;}
 
+    .media-page{padding: 10px 0px 80px;}
+    .blog-box{margin-top: 0px;}
+
+    .career-hd.protectwarp {padding: 0px 0px 0px 0px;}
+    .career-hd h2{font-size: 28px;}
+    .video-section{padding: 80px 0px 0px 0px;}
+    .play-button{top: 56%;}
+    .bottomcnt h2{font-size: 28px;}
+    a#playicon img {width: 36px;height: 36px; background: #353535c9;border-radius: 50px;}
+    .bottomcnt{top: 70%;}
+    .vision-section{margin-left: auto; padding: 40px 0px;}
+    .academic {margin: 40px 0px;}
+
+
+   /*--slider about---*/
+   .media-page.about-page{padding: 10px 0px 0px;}
+
+
+   .pivotal-moments{padding: 80px 0px;}
+   .growing-cnt h2{font-size: 28px; text-align: center;}
+   .growing-cnt h2 br{display: none;}
+   .controls{left: 30px; top: 40%;}
+   .controls.next{right: 30px;}
+   .dates-wrap {left: calc(50vw - 154px);}
+   .time-line{height: 360px;}
+   .date-year h2{font-size: 16px;line-height: 22px;letter-spacing: -0.64px; max-width: 176px; margin: 0 auto; left: 78px;}
+   .date-text p{font-size: 18px; line-height: normal;}
+   .date-text p span{font-size: 14px;}
+   .dates-overflow{height: 110px;}
 
 
 
+   .global-section{padding: 80px 0px;}
+   .presence-bg{padding: 40px 0px 30px;}
+   .global-hd h2{font-size: 32px; line-height: 32px;}
+   .Countries {margin-bottom: 0px;}
+   .Sales-werrp {padding: 40px 20px 0px 20px;display: flex;align-items: center;justify-content: space-between;}
 
+   .testing-cnt{padding: 30px 25px;}
+   .testing-cnt h2{font-size: 28px; line-height: normal;letter-spacing: -1.12px; max-width: 303px; margin-bottom: 20px;}
+   .testing-cnt li{font-size: 18px; line-height: 40px;}
+   .service-img img{height: 480px;}
+   .labslider2 .owl-dots{left: 0px; right: 0px; text-align: center; bottom: 30px;}
+   .labslider2 .owl-theme .owl-dots .owl-dot span{width: 15px; height: 15px;}
 
+   .service-box{padding: 40px 25px; height: auto; margin-top: 20px;}
+   .proudly-cnt h2{font-size: 28px; line-height: 32px; margin-bottom: 30px; max-width: 304px;}
+   .service-box::after{width: 142px;height: 129px;}
 
+   .retrieval-section{padding: 0px;}
+   .standard-cnt h2{font-size: 32px; line-height: 32px;}
+   .standard-cnt {background: #F2ECE2;padding: 30px 25px;border-radius: 50px;}
+   .brands-hd h2{font-size: 28px; line-height: 32px; }
+
+   .contact-section .Production{margin-top: 0px;}
+   .get-hd h2{font-size: 32px; line-height: 38px;}
+   .address-info::after {width: 320px;height: 290px;}
+   .get-werrp h2 br{display: none;}
+
+   .media-page.career-page{padding: 10px 0px 80px;}
+   .career-slider .owl-prev:before{left: 0%; margin: inherit;}
+   .career-slider .owl-next:before{margin: inherit; right: 0%; left: 60px;}
+   .intensive{margin-left: inherit; padding: 80px 0px 20px;}
+   .Open-section{padding: 0px 0px 80px;}
+   .purchase-cnt h2{font-size: 32px; line-height: 36px;}
+
+   .scroll-tabs .nav-pills .nav-link{padding: 10px 15px; font-size: 14px;}
 
 }
 
@@ -81,69 +143,120 @@
 
 @media (max-width:767.8px) {
     .proudly-card h4{font-size: 38px;}
-    .grid-layer3 {
-        grid-template-columns: repeat(1, 1fr);}
-        .evangeline{bottom: 28px;}
-        .social-icon{margin-bottom: 25px;}
-
-
+   
+    .evangeline{bottom: 28px;}
+    .social-icon{margin-bottom: 25px;}
 
 
 }
 
 @media (max-width:576.8px) {
-    .tittle-hd{padding: 0px 20px; bottom: 5px;}
-    .banner-werrp{height: 450px; border-radius: 0px;}
-     #header{top: 50px; padding:0px 20px;}
+    .container{padding: 0px 15px;}
+    .tittle-hd{padding: 0px 20px; bottom: 40px;}
+    .banner-werrp{height: 450px;}
      .tittle-hd h2 {font-size: 48px;}
-     .rightsec{padding: 30px 30px;}
+     .rightsec{padding: 38px 25px;}
      .effort-cnt{padding: 0px 30px;}
      .manufacturer{padding: 52px 30px;}
      .proudly-card{padding: 40px 30px;}
      .copyright p{font-size: 14px;}
-     .footer-bg{padding: 50px 20px 20px 20px; border-radius: 0px;}
+     .footer-bg{padding: 50px 20px 20px 20px; }
      .footer {padding: 0px;}
-     .ftr-menu {
-        margin-bottom: 12px;
-    }
+     .ftr-menu {margin-bottom: 15px;}
      .copyright{padding-top: 50px;}
      .copyright p{margin-bottom: 5px;}
 
-     .card-box{padding: 50px 20px;}
-     .card-box h4{line-height: 28px;}
+     .card-box{padding: 50px 20px; border-radius: 24px;}
+     .card-box h4{color: #000;}
      .facility {margin-top: 30px;}
      
+     /*--about slider ----*/
+     .dates-wrap {left: calc(48vw - 100px);}
+     .date-year:before{width: 100%;}
+     .date {width: 160px;}    
+     .date-year h2{max-width: inherit; left: 0px;}
 
+
+     .contact-section{padding:10px 0px 80px 0px;}
+     .contact-section .Production{padding: 30px 25px; margin: 0px; border-radius: 24px;}
+     .email-get{margin-top: 40px;}
+     .address-1{margin-top: 20px;}
+     .address-info{margin-left: inherit;}
+     .address-info::after {width: 500px;height: 100%;right: auto;left: 0px;bottom: -45px;}
+     .infom-form{padding: 30px 20px; border-radius: 24px;}
+     .get-hd h2{margin-bottom: 40px;}
+     .contact-form .form-control{height: 40px;}
+     .form-section{padding: 0px 0px 80px;}
+
+     .career-hd{padding: 10px 0px 80px;}
+     .purchase-cnt h2 {font-size: 28px;line-height: 32px;}
+     .supportive {border-radius: 24px;padding: 0px;}
+     .purchase-cnt{padding: 30px 25px;}
+     .Open-section h2{font-size: 28px;line-height: 32px;}
+     .intensive h2{font-size: 28px;line-height: 32px; margin-bottom: 80px;}
+     .career-hd h2{line-height: 32px;}
+
+     .media-hd {padding: 10px 0px 20px 0px;}
+     .media-hd h2{font-size: 32px; line-height: 44px;}
 
 }
 
 
 
 @media (max-width:480.8px) {
+  
     .footer-bg::after{width: 340px; height: 210px;}
     .effort-cnt h4{font-size: 40px;}
     .layer-grid {grid-template-columns: repeat(1, 1fr);}
-    .intrusion-card{grid-template-columns: repeat(1, 1fr); margin: 30px auto 0px;}
+    .rightsec h4{margin-bottom: 30px;}
+    .rightsec p{margin-bottom: 35px;}
+    .rightsec li{margin-bottom: 35px;}
+    .rightsec .arrow {position: absolute;top: 40px;right: 25px;}
+    .bottom-cnt {padding-top: 58px;}
+
     .card-werrp{margin-top: 20px;}
-    .tittle-hd h2 {font-size: 42px;}
-    .section-title h2{font-size: 42px; line-height: 40px;}
+    .tittle-hd h2 {font-size: 32px; max-width: 279px;}
+    .tittle-hd p{font-size: 14px; line-height: 18px; max-width: 265; margin: 0 auto;}
+    .section-title h2{ font-size: 28px;line-height: 32px;letter-spacing: -1.12px;}
     .product-section h2{font-size: 40px; margin-bottom: 30px;}
-    .rightsec li a {font-size: 14px;}
+  
     .proudly-card h4 {font-size: 30px; line-height: 30px;}
-    .resources h4{font-size: 40px; margin-bottom: 30px;}
-    .evangeline{padding: 20px;}
+    .resources h4{font-size: 32px; margin-bottom: 30px;}
+    .evangeline{padding: 20px 30px;}
+
+    .address-info::after {width: 370px;}
+
+    .academic p {max-width: 380px;}
+    .grid-layer3 {grid-template-columns: repeat(1, 1fr);}
+    .scroll-tabs .nav-pills .nav-link {padding: 10px 12px;  font-size: 12px;
+        letter-spacing: -0.24px;}
+    ul#pills-tab{gap: 0px 5px;}
+    .blog-img img{border-radius: 24px;}
+    .evangeline{bottom: 15px;}
 
 }
 
 @media (max-width:425.8px) {
+    .controls{left: 10px; top: 40%;}
+    .controls.next{right: 10px;}
+    .date-year h2{font-size: 15px;}
 
+    .purchase-cnt h2 {font-size: 24px;line-height: 28px;}
+    .purchase-cnt h2 br {display: none;}
 
+    .scroll-tabs {overflow-x: auto; white-space: nowrap;display: flex;flex-wrap: nowrap;scrollbar-width: thin; }
+    .scroll-tabs::-webkit-scrollbar {height: 2px; }
+    .scroll-tabs::-webkit-scrollbar-thumb {background: #ccc;border-radius: 10px;}
+    .scroll-tabs ul {display: flex;flex-wrap: nowrap;}
+    
+    .scroll-tabs .nav-pills .nav-link{font-size: 14px; padding: 10px 15px;}
+ 
 
 
 }
 
 @media (max-width:376.8px) {
-  
+    .intrusion-card .card-werrp {padding: 40px 10px;}
     .tittle-hd h2 {font-size: 38px;}
     .tittle-hd p{font-size: 16px; line-height:22px;}
     .section-title h2 {font-size: 38px;}
@@ -160,15 +273,31 @@
     .proudly-card h4 {font-size: 26px;line-height: 33px;}
     .resources h4 {font-size: 35px; line-height: 35px;}
     .footer-bg::after { width: 300px;height: 170px;}
+    .Sales-werrp{display: block;}
+    .Countries {margin-bottom: 30px;}
+    .proudly-cnt h2{font-size: 26px;}
+    .standard-cnt h2 {font-size: 26px;line-height: 28px;}
+    .standard-cnt p{font-size: 18px; line-height: 22px;}
+    .itemwerrp .service-img img{height: inherit;}
 
-
-
+    .latest-list li{font-size: 14px;}
+    .purchase-cnt h2{font-size: 22px; font-family:'BwGradualDEMO-Bold';}
 }
 
 
 @media (max-width:340.8px) {
+    .intrusion-card {grid-template-columns: repeat(1, 1fr);}
     .effort-cnt a.btn{font-size: 14px;}
     .tittle-hd h2 {font-size: 30px;}
     .proudly-card h4{font-size: 26px; letter-spacing: -0.5px;}
     .evangeline h5{font-size: 22px;}
+
+    .date {width: 120px;}
+    .date-year h2 {line-height: 18px;font-size: 14px;}
+    .dates-wrap {left: calc(50vw - 55px);}
+
+    .service-box::after {width: 118px;height: 104px;}
+    .proudly-cnt h2 {line-height: 26px;font-size: 22px;}
+    .standard-cnt h2 {font-size: 22px;}
+    .testing-cnt h2{font-size: 22px;}
 }
