@@ -136,6 +136,21 @@
 
    .scroll-tabs .nav-pills .nav-link{padding: 10px 15px; font-size: 14px;}
 
+   .sustainable{padding: 40px 0px 60px;}
+   .product-banner{padding: 60px 0px;}
+   .colours-box{height: inherit; margin-bottom: 20px;}
+   .specialty{height: inherit;}
+   .percentage{height: inherit;}
+   .variants-bg .percentage{height: inherit;}
+   .jeremy-img img{height: inherit;}
+   .jeremy-img{margin-top: 20px;}
+   .variants-bg .percentage{margin-top: 20px;}
+   .download-section{margin-top: 60px; border-radius: 24px;}
+
+   .product-tabs {padding: 0px 0px 40px 0px;}
+
+   .scroll-werrp .nav-link{font-size: 14px; padding: 7px 8px;}
+
 }
 
 
@@ -203,8 +218,18 @@
      .media-hd h2 br{display: none;}
      .privacy-hd{padding: 10px 0px 80px;}
 
+
+     .scroll-werrp {overflow-x: auto;flex-wrap: nowrap;-webkit-overflow-scrolling: touch; padding: 12px;}
+    .scroll-werrp ul {flex-wrap: nowrap;width: max-content;}
+    .scroll-werrp .nav-link {font-size: 14px;padding: 8px 14px;}
+
+    .machine-cnt h2{font-size: 35px; line-height: 38px;}
+    .product-tabs {padding: 0px 0px 0px 0px;}
+
 }
 
+
+  
 
 
 @media (max-width:480.8px) {
@@ -232,11 +257,29 @@
 
     .academic p {max-width: 380px;}
     .grid-layer3 {grid-template-columns: repeat(1, 1fr);}
+
     .scroll-tabs .nav-pills .nav-link {padding: 10px 12px;  font-size: 12px;
         letter-spacing: -0.24px;}
     ul#pills-tab{gap: 0px 5px;}
+
+
     .blog-img img{border-radius: 24px;}
     .evangeline{bottom: 15px;}
+
+    .colours-box h2{font-size: 35px; line-height: 35px; margin-bottom: 20px;}
+    .colours-box{display: block; padding: 40px 20px;}
+    .grid-layer2 { grid-template-columns: repeat(1, 1fr);}
+    .specialty{padding: 40px 20px; margin-top: 20px;}
+    .percentage{padding: 40px 20px;}
+    .biodeg-text{padding: 40px 20px; top: 10px;}
+    .biodeg-text h2{font-size: 35px; line-height: 35px; margin-bottom: 20px;} 
+    .retail-cnt{padding: 40px 20px; top: 10px;}
+
+    .sheet-cnt h2{font-size: 35px; line-height: 38px;}
+    .download-section::after{width: 340px; height: 240px;}
+    .download-section{padding: 60px 10px;}
+    .biodeg-text p{line-height: normal;}
+
 
 }
 
@@ -255,7 +298,8 @@
     
     .scroll-tabs .nav-pills .nav-link{font-size: 14px; padding: 10px 15px;}
  
-
+    .download-section::after {width: 280px;height: 185px;}
+    .machine-cnt h2{font-size: 30px;}
 
 }
 
@@ -286,6 +330,14 @@
 
     .latest-list li{font-size: 14px;}
     .purchase-cnt h2{font-size: 22px; font-family:'BwGradualDEMO-Bold';}
+
+    .sheet-cnt h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+
+
 }
 
 
@@ -304,4 +356,9 @@
     .proudly-cnt h2 {line-height: 26px;font-size: 22px;}
     .standard-cnt h2 {font-size: 22px;}
     .testing-cnt h2{font-size: 22px;}
+
+    .download-section::after {width: 260px;height: 180px;}
+
+
+
 }
