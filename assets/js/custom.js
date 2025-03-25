@@ -90,5 +90,25 @@ brandlogo.owlCarousel({
 });
 
 
+var Homeslider = $('.Homeslider');
+Homeslider.owlCarousel({
+  loop: true,
+  nav: false,
+  dots: true,
+  smartSpeed: 450,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  margin: 20,
+  responsive: {
+    320: { items: 1 },
+    480: { items: 1 },
+    600: { items: 2 },
+    960: { items: 2 },
+    1200: { items: 1 }
+
+  }
+});
+
+
 
 

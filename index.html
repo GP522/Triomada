@@ -7,11 +7,26 @@
   <meta charset="utf-8">
   <link rel="icon" href="images/favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/fancybox.css" />
+  <link rel="stylesheet" href="./assets/js/owlcarousel/owl.carousel.css">
   <link rel="stylesheet" href="./assets/css/aos.css" type="text/css">
   <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css" type="text/css">
 
   <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
+
+   <style>
+     .resources-slider {padding-bottom: 70px;}
+    .resources-slider .owl-dots{margin: 0 auto; text-align: center; bottom: -44px;position: absolute;left: 0px;right: 0px;}
+    .resources-slider .owl-theme .owl-dots .owl-dot span{background: #D9D9D9E5;width: 20px;height: 20px; margin: 0px 6px;}
+    .resources-slider .owl-theme .owl-dots .owl-dot.active span{background: #F2ECE2; opacity: 100%;}
+   </style>
+
+
+
+
+
+
 
 
 </head>
@@ -209,12 +224,13 @@
   </div><!---steps-section-->
 
 
-  <div class="resources">
+  <div class="resources desktop">
     <div class="container">
       <div class="hd-resour text-center aos-init aos-animate" data-aos="fade-up">
         <h6 class="heading6">Blog</h6>
         <h4>Resources From Triomada</h4>
       </div>
+
       <div class="grid-layer3">
         <div class="blog-box" data-aos="fade-up" data-aos-delay="200">
           <div class="blog-img">
@@ -257,12 +273,81 @@
 
       </div>
 
+
       <div class="more-btn text-center" data-aos="zoom-in">
         <a href="#" class="btn">View Our Blog</a>
       </div>
 
     </div>
-  </div>
+  </div><!---resources desktop-->
+
+
+  <div class="resources moblie">
+    <div class="container">
+      <div class="hd-resour text-center aos-init aos-animate" data-aos="fade-up">
+        <h6 class="heading6">Blog</h6>
+        <h4>Resources From Triomada</h4>
+      </div>
+
+      <div class="resources-slider">
+        <div class="owl-carousel owl-theme  Homeslider">
+          <div class="item">
+            <div class="blog-box">
+              <div class="blog-img">
+                <img src="./assets/images/getty-image.jpg" alt="">
+              </div>
+              <div class="evangeline">
+                <span>Feburary 14, 2025</span>
+                <h5>Triomada efforts in
+                  recycle of the stretch
+                  film</h5>
+                <a href="#" class="arrow"><img src="./assets/images/arrow.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="blog-box">
+              <div class="blog-img">
+                <img src="./assets/images/bruno-figueiredo.jpg" alt="">
+              </div>
+              <div class="evangeline">
+                <span>Feburary 14, 2025</span>
+                <h5>Triomada launches
+                  new office in Frankfut,
+                  Germany</h5>
+                <a href="#" class="arrow"><img src="./assets/images/arrow.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="blog-box">
+              <div class="blog-img">
+                <img src="./assets/images/evangeline.jpg" alt="">
+              </div>
+              <div class="evangeline">
+                <span>Feburary 14, 2025</span>
+                <h5>Triomada participates
+                  in world ecnomic
+                  forum</h5>
+                <a href="#" class="arrow"><img src="./assets/images/arrow.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="more-btn text-center" data-aos="zoom-in">
+        <a href="#" class="btn">View Our Blog</a>
+      </div>
+
+    </div>
+  </div><!--resources moblie---->
+
+
+
+
 
   <footer class="footer">
     <div class="footer-bg">
@@ -330,8 +415,11 @@
 
   <script src="./assets/js/jquery-3.6.3.js"></script>
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/fancybox.umd.js"></script>
   <script src="./assets/js/aos.js"></script>
+  <script src="./assets/js/owlcarousel/owl.carousel.js"></script>
   <script src="./assets/js/custom.js"></script>
+
 
 </body>
 
